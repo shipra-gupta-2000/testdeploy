@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 function App() {
   useEffect(() => {
     console.log("hello")
-    axios.get('http://localhost:5000/')
+    axios.get('https://testdeploy-68rz.onrender.com/')
     .then(res => {
       setData(res.data)
     }
