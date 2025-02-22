@@ -1,0 +1,6 @@
+backend/node_modules
+test/node_modules
+
+backend/.env
+
+build 
